@@ -21,7 +21,7 @@ The field names returned are consistent with the API structure."><meta property=
 
     <a class="navbar-brand me-2" href="../index.html">IndonesiAPIs</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.1.0</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.1.1</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,6 +34,7 @@ The field names returned are consistent with the API structure."><meta property=
   <button class="nav-link dropdown-toggle" type="button" id="dropdown-articles" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true">Articles</button>
   <ul class="dropdown-menu" aria-labelledby="dropdown-articles"><li><a class="dropdown-item" href="../articles/IndonesiAPIs_vignette.html">IndonesiAPIs: Access Indonesian Data via Public APIs and Curated Datasets</a></li>
   </ul></li>
+<li class="nav-item"><a class="nav-link" href="../news/index.html">Changelog</a></li>
       </ul><ul class="navbar-nav"><li class="nav-item"><form class="form-inline" role="search">
  <input class="form-control" type="search" name="search-input" id="search-input" autocomplete="off" aria-label="Search site" placeholder="Search for" data-search-index="../search.json"></form></li>
 <li class="nav-item"><a class="external-link nav-link" href="https://github.com/lightbluetitan/indonesiapis/" aria-label="GitHub"><span class="fa fab fa-github fa-lg"></span></a></li>
@@ -82,11 +83,13 @@ The field names returned are consistent with the API structure.</p>
     <p>A tibble with the following columns:</p><ul><li><p><code>date</code>: Date of the holiday (class <code>Date</code>)</p></li>
 <li><p><code>local_name</code>: Holiday name in the local language (Indonesian)</p></li>
 <li><p><code>name</code>: Holiday name in English</p></li>
-</ul></div>
+</ul><p>Returns <code>NULL</code> if the API is unavailable or returns an error.</p>
+    </div>
 
     <div class="section level2">
     <h2 id="ref-examples">Examples<a class="anchor" aria-label="anchor" href="#ref-examples"></a></h2>
-    <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span><span class="fu">get_indonesia_holidays</span><span class="op">(</span><span class="fl">2024</span><span class="op">)</span></span></span>
+    <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span><span class="co"># \donttest{</span></span></span>
+<span class="r-in"><span><span class="fu">get_indonesia_holidays</span><span class="op">(</span><span class="fl">2024</span><span class="op">)</span></span></span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;"># A tibble: 8 × 3</span></span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>   date       local_name                                      name            </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>   <span style="color: #949494; font-style: italic;">&lt;date&gt;</span>     <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>                                           <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>           </span>
@@ -110,6 +113,7 @@ The field names returned are consistent with the API structure.</p>
 <span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">6</span> 2025-06-01 Hari Lahir Pancasila                            Pancasila Day   </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">7</span> 2025-08-17 Hari Ulang Tahun Kemerdekaan Republik Indonesia Independence Day</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">8</span> 2025-12-25 Hari Raya Natal                                 Christmas Day   </span>
+<span class="r-in"><span><span class="co"># }</span></span></span>
 <span class="r-in"><span></span></span>
 </code></pre></div>
     </div>

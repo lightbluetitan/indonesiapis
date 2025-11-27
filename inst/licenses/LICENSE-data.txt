@@ -7,9 +7,6 @@ Dataset Licensing Information:
 - indonesia_latlong_df:
   Originally Loc from the gstar 0.1.0 package, licensed under GPL-2 | GPL-3. The dataset name has been changed to 'indonesia_latlong_df' to indicate that this dataset is a data frame object.
 
-- poverty_index_tbl_df:
-  Originally ppiIDN2023 from the ppitables 0.6.0 package, licensed under MIT + file LICENSE. The dataset name has been changed to 'poverty_index_tbl_df' to indicate that this dataset is a tibble object.
-
 - Bali_tbl_df:
   Originally Bali from the ifpd 0.1.0 package, licensed under GPL-3. The dataset name has been changed to 'Bali_tbl_df' to indicate that this dataset is a tibble object.
 
@@ -37,4 +34,4 @@ License
 
 All datasets in this package are provided under the same licenses as their original sources. The licensing information and any specific attribution required for each dataset can be found within their respective packages. Users must adhere to the licensing terms specified by each original source.
 
-The code in this package, SouthKoreAPIs, is licensed under the MIT License. See the LICENSE file in the root directory for details.
+The code in this package, IndonesiAPIs, is licensed under the MIT License. See the LICENSE file in the root directory for details.
