@@ -17,7 +17,9 @@ Description: Provides functions to access data from public RESTful APIs includin
     and 'REST Countries API' <https://restcountries.com/>.
 License: MIT + file LICENSE
 Language: en
-URL: https://github.com/lightbluetitan/indonesiapis, https://lightbluetitan.github.io/indonesiapis/
+URL: https://github.com/lightbluetitan/indonesiapis, 
+    https://lightbluetitan.github.io/indonesiapis/, 
+    https://doi.org/10.5281/zenodo.17731434
 BugReports: https://github.com/lightbluetitan/indonesiapis/issues
 Encoding: UTF-8
 LazyData: true

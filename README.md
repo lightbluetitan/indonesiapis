@@ -4,6 +4,7 @@
 [![CRAN status](https://www.r-pkg.org/badges/version/IndonesiAPIs)](https://CRAN.R-project.org/package=IndonesiAPIs)
 [![CRAN downloads (monthly)](https://cranlogs.r-pkg.org/badges/IndonesiAPIs?color=brightgreen)](https://cran.r-project.org/package=IndonesiAPIs)
 [![CRAN downloads (total)](https://cranlogs.r-pkg.org/badges/grand-total/IndonesiAPIs?color=blue)](https://cran.r-project.org/package=IndonesiAPIs)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17731434.svg)](https://doi.org/10.5281/zenodo.17731434)
 
 ---
 

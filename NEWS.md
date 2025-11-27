@@ -37,6 +37,11 @@ All API-calling functions have been updated with improved error handling:
 * Replaced `stop()` with `message() + return(NULL)` pattern for graceful failures
 * Enhanced `@importFrom` declarations to include new error handling functions
 
+## Additional Information
+
+* DOI for this version: https://doi.org/10.5281/zenodo.17731434
+
+
 ---
 
 # IndonesiAPIs 0.1.0
